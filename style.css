@@ -2,6 +2,22 @@
     font-family: cursive;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #999;
+    border-radius: 5px;
+}
+
+h3 {
+    font-size: 2vmax;
+    background: white;
+    color: #999;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 .container {
     display: flex;
     padding: 50px;
@@ -63,4 +79,27 @@ img {
 .name {
     font-size: 24px;
     font-weight: normal;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search {
+        width: 80vw;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .cats {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 }
