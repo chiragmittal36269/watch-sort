@@ -53,7 +53,8 @@ h1 {
 }
 
 .content {
-    flex: 4;
+    /* flex: 4; */
+    margin-top: 30px;
 }
 
 .products {
@@ -94,6 +95,7 @@ img {
 
     h1 {
         text-align: center;
+        font-size: 18px;
     }
 
     .cats {
@@ -101,5 +103,41 @@ img {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+    }
+
+    .cat {
+        font-size: 16px;
+    }
+
+    .price {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input[type="range"] {
+        width: 65%;
+    }
+
+    .priceValue {
+        font-size: 16px;
+    }
+
+    .name {
+        font-size: 3vmin;
+    }
+
+    .priceText {
+        font-size: 4vmin;
+    }
+
+    .product {
+        width: 45%;
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
     }
 }
