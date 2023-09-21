@@ -81,8 +81,6 @@ const watches = [
     },
 ];
 
-// console.log(watches);
-
 const productContainer = document.querySelector(".products");
 const searchInput = document.querySelector(".search");
 const categoriesContainer = document.querySelector(".cats");
