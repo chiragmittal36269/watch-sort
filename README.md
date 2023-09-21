@@ -1,7 +1,2 @@
-# watch-sort
-
-## Hosted Link:-
-
-## project link
-
-[Click here](https://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html)
+## Hosted Link:
+[Click here](https://chiragmittal36269.github.io/watch-sort/)
